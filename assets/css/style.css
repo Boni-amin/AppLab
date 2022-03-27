@@ -89,7 +89,17 @@ body{
     Header Area Start 
 ======================================================== */
 header{
-    padding-top: 20px;
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 199;
+    background-color: #fff;
+}
+.header_sticky{
+    padding: 12px 0;
+    border-bottom: 3px solid #2500f9;
+    background-color: #fff;
 }
 .menu_icon{
     color: #fcae61;
@@ -129,11 +139,11 @@ header{
 /* ========================================================
     Banner Area start 
 ======================================================== */
-.banner{
-    padding-top: 10px;
+.banner {
+    padding-top: 90px;
     background-image: url(../../assets/images/banner.png);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: top;
 }
 .app-icon a{
    width: 380px;
@@ -337,7 +347,7 @@ client Areat  start
  Download app Area  start 
 ======================================================== */
 .download{
-    padding: 0 0 100px 0;
+    padding: 10px 0 90px 0;
 }
 .download-btn-area ul li a {
     padding: 9px 20px;

@@ -87,7 +87,7 @@
               </div>
               <div class="col-lg-5 offset-lg-1 col-md-5">
                 <div class="app-mobail text-center">
-                  <img src="assets/images/mobail.png" alt="mobail" class="img-fluid">
+                  <img src="assets/images/mobail.png" alt="mobail" class="img-fluid b-img">
                 </div>
               </div>
             </div>
@@ -936,20 +936,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    <!--========================================================
-    Optional JavaScript; choose one of the two
-    ===========================================================-->
     
 
     <!--========================================================
@@ -960,7 +946,16 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <!-- Custom js  -->
     <script src="assets/js/script.js"></script>
+
     <script>
+      // Scrol header 
+      $(window).on('scroll', function(){
+        if($(this).scrollTop() > 20){
+          $('header').addClass('header_sticky');
+        } else{
+          $('header').removeClass('header_sticky')
+        }
+      })
 
     </script>
   </body>

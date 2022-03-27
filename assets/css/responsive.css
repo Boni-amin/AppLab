@@ -6,18 +6,23 @@ vX-Small devices (portrait phones, less than 576px)
         font-size: 24px;
     }
     /* Header start  */
+     header {
+        padding: 20px 0;
+    }
     .logo{
         width: 125px;
     }
  /* Bannner area  */
-     .banner{
-         padding-top: 45px;
-     }
+ .banner {
+    padding: 120px 0 20px 0;
+    background-position: bottom;
+    background-size: cover;
+}
     .app-contant h1{
        font-size: 32px !important;
    }
    .app-mobail img{
-       width: 70%;
+    width: 80%;
    }
    .font-size-18 {
     font-size: 16px;
@@ -169,13 +174,18 @@ Small devices (landscape phones, less than 768px)
         font-size: 32px;
     }
     /* Header start  */
+     header {
+        padding: 20px 0;
+    }
     .logo{
         width: 125px;
     }
      /* Bannner area  */
-     .banner{
-         padding-top: 45px;
-     }
+     .banner {
+        padding: 120px 0 30px 0;
+        background-position: bottom;
+        background-size: cover;
+    }
      .app-contant h1{
         font-size: 50px !important;
     }
@@ -253,7 +263,7 @@ Small devices (landscape phones, less than 768px)
     .client{
         padding: 30px 0;
     }
-    .img-fluid {
+    .b-img {
         max-width: 70%;
     } 
     .client-h1, .client-p{
@@ -300,10 +310,16 @@ Medium devices (tablets, less than 992px)
         font-size: 32px;
     }
     /* header  */
-    .banner {
-        padding: 40px 0;
+    header {
+        padding: 20px 0;
     }
+    
     /* Bannner area  */
+    .banner {
+        padding: 120px 0 55px 0;
+        background-position: bottom;
+        background-size: cover;
+    }
     .trusted {
         padding: 65px 0;
     }
@@ -378,8 +394,8 @@ Medium devices (tablets, less than 992px)
     .client{
         padding: 55px 0;
     }
-    .img-fluid {
-        max-width: 70%;
+    .b-img {
+        max-width: 85%;
     }
     .client-h1, .client-p{
         text-align: center;
@@ -453,6 +469,10 @@ X-Large devices (large desktops, less than 1400px)
      .menu ul li a{
         font-size: 18px;
     }
+    /* banner  */
+    .b-img{
+        max-width: 90%;
+    }
     /* Row 4 Smart jackpots */
     .smart-jackpot-left{
         padding-right: 0;
@@ -470,6 +490,10 @@ XX-Large devices (larger desktops)
     /* Header area  */
     .menu ul li a{
         font-size: 20px;
+    }
+    /* banner  */
+    .b-img{
+        max-width: 70% !important;
     }
     /* Why Choose App Area start   */
     .common-title-h1 {
