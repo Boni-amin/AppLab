@@ -35,7 +35,7 @@ vX-Small devices (portrait phones, less than 576px)
     /* trusted area  */
 
     .trusted{
-        padding: 40px 0 0 0;
+        padding: 55px 0 0 0;
     }
     .trusted-single-box{
         margin-bottom: 40px;
@@ -44,7 +44,7 @@ vX-Small devices (portrait phones, less than 576px)
         margin-bottom: 35px;
     }
     .awesome-app {
-        margin-top: 70px;
+        margin-top: -25px;
     }
      /* Trustedner Area end   */
      .awesome-app-box-text{
@@ -61,7 +61,7 @@ vX-Small devices (portrait phones, less than 576px)
         width: 80%;
     }
     .awesome-app-content-p {
-        margin-bottom: 55px;
+        margin: 15px 0 40px 0;
     }
     .awesome-app-box {
         margin-top: 35px;
@@ -99,7 +99,7 @@ vX-Small devices (portrait phones, less than 576px)
     }
     
     .why-choose-app-single-area {
-        margin-top: 35px;
+        margin-top: 15px;
     }
     /* Ultimate features App Area start  */
     .ultimte-single-area {
@@ -138,6 +138,9 @@ vX-Small devices (portrait phones, less than 576px)
     /* Quection area  */
     .question {
         padding-bottom: 30px;
+    }
+    .awesome-card-single-area {
+        margin-top: 35px;
     }
      /* Download app  */
      .download{
@@ -266,6 +269,9 @@ Small devices (landscape phones, less than 768px)
     /* Quection  */
     .question {
         padding: 60px 0 40px 0;
+    }
+    .awesome-card-single-area {
+        margin-top: 35px;
     }
      /* Download app  */
     .download-btn-area ul li a {
