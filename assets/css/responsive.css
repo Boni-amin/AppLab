@@ -1,0 +1,474 @@
+/* ===================================================================
+vX-Small devices (portrait phones, less than 576px)
+=================================================================== */
+@media (max-width: 575.98px) {
+    .title{
+        font-size: 24px;
+    }
+    /* Header start  */
+    .logo{
+        width: 125px;
+    }
+ /* Bannner area  */
+     .banner{
+         padding-top: 45px;
+     }
+    .app-contant h1{
+       font-size: 32px !important;
+   }
+   .app-mobail img{
+       width: 70%;
+   }
+   .font-size-18 {
+    font-size: 16px;
+    }
+    .app-icon a {
+    width: 300px;
+    }
+    .custom-button {
+    width: 100%;
+    margin-bottom: 8px;
+    }
+    .tr-img-1 {
+        margin-top: 10px;
+    }
+    /* trusted area  */
+
+    .trusted{
+        padding: 40px 0 0 0;
+    }
+    .trusted-single-box{
+        margin-bottom: 40px;
+    }
+    .trusted-header {
+        margin-bottom: 35px;
+    }
+    .awesome-app {
+        margin-top: 70px;
+    }
+     /* Trustedner Area end   */
+     .awesome-app-box-text{
+        text-align: center;
+    }
+    .awesome-app-box-text h2{
+       margin-top: 0;
+       font-size: 18px;
+    }
+    .awesome-app-img {
+        text-align: center;
+    }
+    .awesome-app-img img{
+        width: 80%;
+    }
+    .awesome-app-content-p {
+        margin-bottom: 55px;
+    }
+    .awesome-app-box {
+        margin-top: 35px;
+    }
+    /* Row 4 Smart jackpots */
+    .smart-jackpot{
+        text-align: center;
+    }
+    .smart-jackpot-left{
+        padding-right: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        border: none;
+       
+    }
+    /* row 5 awesome-app-new */
+    .awesome-app-new {
+        margin-top: 0;
+    }
+    .a-sd{
+        padding: 0 ;
+    }
+    /* Row 6  */
+    .custom-btn-2 {
+        width: 100%;
+        height: auto;
+    }
+    /* Why Choose App Area start  */
+    .why-choose-app {
+        padding: 110px 0 60px;
+    }
+    .common-title h1 {
+        padding: 0;
+        margin-bottom: 15px;
+    }
+    
+    .why-choose-app-single-area {
+        margin-top: 35px;
+    }
+    /* Ultimate features App Area start  */
+    .ultimte-single-area {
+        margin-top: 20px;
+    }
+    .ultimate-mobail3-top{
+        width: 85%;
+    }
+    /* awewsome feature Area  start  */
+    .custom-button-3{
+        height: 40px;
+    }
+    /* awewsome feature Area start */
+    .awesome-futre-area{
+        padding: 70px 0 80px;
+    }
+    .awesome-button-box {
+        margin: 30px 0 0 0;
+    }
+    /* Client Area  */
+    .client{
+        padding: 15px 0 80px 0;
+    }
+    .img-fluid {
+        max-width: 90%;
+    }
+    .client-h1, .client-p{
+        text-align: center;
+    }
+    .carousel-control-prev-custom, .carousel-control-next-custom {
+        top: 100%;
+    }
+    .carousel-control-prev-custom {
+        left: 58%;
+    }
+    /* Quection area  */
+    .question {
+        padding-bottom: 30px;
+    }
+     /* Download app  */
+     .download{
+        padding: 0 0 35px 0;
+        text-align: center;
+    }
+    .download-btn-area ul li{
+        margin-bottom: 10px;
+    }
+    .download-btn-area ul li a {
+        padding: 6px 12px;
+        font-size: 17px;
+    }
+    /* footer area  */
+    .footer {
+        padding: 55px 0 45px;
+    }
+
+}
+
+/* ===================================================================
+Small devices (landscape phones, less than 768px)
+=================================================================== */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .title{
+        font-size: 32px;
+    }
+    /* Header start  */
+    .logo{
+        width: 125px;
+    }
+     /* Bannner area  */
+     .banner{
+         padding-top: 45px;
+     }
+     .app-contant h1{
+        font-size: 50px !important;
+    }
+     /* Trustedner Area end   */
+     .trusted {
+        padding: 65px 0;
+    }
+     .trusted-single-box img{
+        width: 85%;
+    }
+    .awesome-app {
+        margin-top: 120px;
+    }
+     .awesome-app-box-text{
+        text-align: center;
+    }
+    .awesome-app-box-text h2{
+       margin-top: 0;
+       font-size: 18px;
+    }
+    .awesome-app-img {
+        text-align: center;
+    }
+    .awesome-app-img img{
+        width: 80%;
+    }
+    .awesome-app-content-p {
+        margin-bottom: 55px;
+    }
+    .awesome-app-box {
+        margin-top: 35px;
+    }
+    /* Row 4 Smart jackpots */
+    .smart-jackpot{
+        text-align: center;
+    }
+    .smart-jackpot-left{
+        padding-right: 0;
+        margin-bottom: 20px;
+        border: none;
+       
+    }
+    /* row 5 awesome-app-new */
+    .awesome-app-new {
+        margin: 0 0 0 40px;
+    }
+    .a-sd{
+        padding: 0 ;
+    }
+    /* Why Choose App Area start  */
+    .why-choose-app {
+        padding: 75px 0 55px 0;
+    }
+    .common-title h1 {
+        margin-bottom: 15px;
+    }
+    .ultimte-single-area {
+        margin-top: 30px;
+    }
+    .why-choose-app-single-area {
+        margin-top: 10px;
+    }
+    .ultimate-mobail3-top{
+        width: 85%;
+    }
+    /* awewsome feature Area  start  */
+    .custom-button-3{
+        height: 40px;
+    }
+    /* awewsome feature Area start */
+    .awesome-futre-area{
+        padding: 90px 0 80px;
+    }
+    /* Client Area  */
+    .client{
+        padding: 30px 0;
+    }
+    .img-fluid {
+        max-width: 70%;
+    } 
+    .client-h1, .client-p{
+        text-align: center;
+    }
+    .carousel-control-prev-custom, .carousel-control-next-custom {
+        top: 95%;
+    }
+    .carousel-control-prev-custom {
+        left: 73%;
+    }
+    /* Quection area  */
+    /* Quection  */
+    .question {
+        padding: 60px 0 40px 0;
+    }
+     /* Download app  */
+    .download-btn-area ul li a {
+        padding: 7px 15px;
+        font-size: 17px;
+    }
+    /* Download app  */
+    .download {
+        padding: 0 0 50px 0;
+        text-align: center;
+    }
+
+    /* Footer area  */
+    .footer {
+        padding: 50px 0 25px;
+    }
+    
+}
+
+/* ===================================================================
+Medium devices (tablets, less than 992px) 
+=================================================================== */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .title{
+        font-size: 32px;
+    }
+    /* header  */
+    .banner {
+        padding: 40px 0;
+    }
+    /* Bannner area  */
+    .trusted {
+        padding: 65px 0;
+    }
+    .app-contant h1{
+        font-size: 44px !important;
+    }
+    /* Trustedner Area end   */
+    .awesome-app {
+        margin-top: 100px;
+    }
+    .awesome-app-box-text{
+        text-align: center;
+    }
+    .awesome-app-box-text h2{
+       margin-top: 0px;
+       font-size: 18px;
+    }
+    .awesome-app-img {
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .awesome-app-img img{
+        width: 70%;
+    }
+    .awesome-app-content-p {
+        padding: 0 40px;
+        margin-bottom: 55px;
+    }
+    .awesome-app-box {
+        margin-top: 0;
+    }
+    /* Row 4 Smart jackpots */
+    .smart-jackpot-left{
+        padding-right: 10px;
+       
+    }
+    .smart-jackpot-left h1{
+        font-size: 25px;
+    }
+    .a-sd{
+        padding: 0 ;
+    }
+    /* row 5  */
+    .awesome-app-new {
+        margin: 80px 0;
+    }
+    /* Why Choose App Area start   */
+    .common-title h1 {
+        margin-bottom: 15px;
+    }
+    .why-choose-app {
+        padding: 60px 0;
+    }
+    .common-title-h1 {
+        padding: 0 ;
+    }
+    .why-choose-app-single-area {
+        margin-top: 45px;
+    }
+    /* Ultimate features App Area start  */
+    .ultimate-mobail3-top{
+        width: 70%;
+    }
+    /* awewsome feature Area start */
+    .awesome-futre-area{
+        padding: 100px 0 80px;
+    }
+    .awesome-button-box {
+        margin: 50px 0 0 0;
+    }
+    /* Client Area  */
+    .client{
+        padding: 55px 0;
+    }
+    .img-fluid {
+        max-width: 70%;
+    }
+    .client-h1, .client-p{
+        text-align: center;
+    }
+    .carousel-control-prev-custom, .carousel-control-next-custom {
+        top: 94%;
+    }
+    .carousel-control-prev-custom {
+        left: 78%;
+    }
+     /* Quection  */
+     .question {
+        padding: 80px 0 55px 0;
+    }
+    /* Download app  */
+    .download {
+        padding: 0 0 70px 0;
+        text-align: center;
+    }
+
+    /* Footer area  */
+    .footer {
+        padding: 68px 0 40px;
+    }
+    
+}
+
+/* ===================================================================
+Large devices (desktops, less than 1200px)
+=================================================================== */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .title{
+        font-size: 35px;
+    }
+    /* Bannner area  */
+    .app-contant h1{
+        font-size: 50px !important;
+    }
+    /* Row 4 Smart jackpots */
+    .smart-jackpot-left{
+        padding-right: 20px;
+       
+    }
+    .why-choose-app {
+        padding: 80px 0;
+    }
+    .ultimate-feature-area {
+        padding: 0;
+    }
+    .awesome-futre-area {
+        padding: 125px 0 20px 0;
+    }
+    /* Client Area  */
+    .carousel-control-next-custom {
+        right: 7%;
+    }
+    .question {
+        padding: 50px 0 ;
+    }
+    /* Download app  */
+    .download {
+        padding: 0 0 80px 0;
+    }
+}
+
+/* ===================================================================
+X-Large devices (large desktops, less than 1400px)
+=================================================================== */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+     /* Header area  */
+     .menu ul li a{
+        font-size: 18px;
+    }
+    /* Row 4 Smart jackpots */
+    .smart-jackpot-left{
+        padding-right: 0;
+       
+    }
+    /* Client Area  */
+    
+    
+}
+
+/* ===================================================================
+XX-Large devices (larger desktops)
+=================================================================== */
+@media (min-width: 1400px) { 
+    /* Header area  */
+    .menu ul li a{
+        font-size: 20px;
+    }
+    /* Why Choose App Area start   */
+    .common-title-h1 {
+        padding: 0 ;
+    }
+}
+
+/* No media query since the xxl breakpoint has no upper bound on its width */
