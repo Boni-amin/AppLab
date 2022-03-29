@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+      <!-- Preloader plugin  -->
+      <link rel="stylesheet" href="assets/plugin/Page-Loader-Intro-Loader/dist/css/introLoader.css">
     <!-- Fonts awesome Icon  -->
     <link rel="stylesheet" href="assets/css/all.min.css">
     <!-- Bootstrap CSS -->
@@ -21,6 +23,9 @@
     <title>AppLab</title>
   </head>
   <body>
+    <!-- Page mloder plugin  -->
+    <div id="page-lode"></div>
+    <!-- Page mloder plugin end -->
     <!--========================================================
     Header Area Start 
     ===========================================================-->
@@ -73,7 +78,7 @@
                 <div class="app-contant">
                   <div class="app-icon">
                     <a href="#" class="text-decoration-none background-color-ed d-block color-51 rounded-pill font-size-18 ">
-                      <img src="assets/images/app-icon.png" alt="icon" class="img-fluid">
+                      <img src="assets/images/app-icon.png" alt="icon" class="img-fluid ">
                       <span class="ps-2">#1 Editiors Choice App of 2022</span>
                     </a>
                     <div >
@@ -87,7 +92,7 @@
               </div>
               <div class="col-lg-5 offset-lg-1 col-md-5">
                 <div class="app-mobail text-center">
-                  <img src="assets/images/mobail.png" alt="mobail" class="img-fluid b-img">
+                  <img src="assets/images/mobail.png" alt="mobail" class="img-fluid b-img mt-3 mt-md-0">
                 </div>
               </div>
             </div>
@@ -133,7 +138,7 @@
           </div>
         </div>
          <!-- 3rd row  awesome app  -->
-        <div class="row awesome-app">
+        <div class="row awesome-app as-p">
           <div class="row d-block d-lg-none">
             <div class="col-md-12 text-center">
               <h1 class="title mb-3">Awesome apps features</h1>
@@ -157,8 +162,8 @@
                     <div class="awesome-app-single-area">
                       <!-- Single Box app  -->
                      <div class="row">
-                       <div class="col-md-4 col-lg-12 ">
-                        <div class="awesome-app-box mb-lg-4 mb-lg-5">
+                       <div class="col-md-4 col-lg-12">
+                        <div class="awesome-app-box mb-lg-4 mb-lg-5 mt-4 mt-md-0">
                           <div class="row align-items-center">
                             <div class="col-lg-3">
                               <div class="awesome-app-box-icon text-center">
@@ -178,7 +183,7 @@
                        </div>
   
                      <div class="col-md-4 col-lg-12">
-                      <div class="awesome-app-box mb-4 mb-lg-5">
+                      <div class="awesome-app-box mb-4 mb-lg-5 mt-5 mt-md-0">
                         <div class="row align-items-center">
                           <div class="col-lg-3">
                             <div class="awesome-app-box-icon text-center">
@@ -326,7 +331,7 @@
               <img src="assets/images/man.png" alt="mobail2" class="img-fluid">
             </div>
             <div class="text-center d-block d-lg-none">
-              <button type="button" class="btn custom-btn-2 background-color-f9 custom-button rounded-pill py-2 mt-5 mt-md-0">Learn More</button>
+              <button type="button" class="btn custom-btn-2 background-color-f9 custom-button rounded-pill py-2 mt-4 mt-md-0">Learn More</button>
             </div>
           </div>
           <div class="col-lg-5 offset-lg-1">
@@ -791,7 +796,7 @@
           </div>
         </div> 
         <!-- 2nd row  -->
-        <div class="row justify-content-center mt-5 pt-lg-2 pb-md-5">
+        <div class="row justify-content-center mt-4  mt-md-5 pt-lg-2 pb-md-5">
           <div class="col-md-10">
             
             <div class="accordion accordion-flush mb-3" id="accordionFlushExample1">
@@ -929,13 +934,12 @@
         </div>
       </div>
     </footer>
+    
     <!--========================================================
      Fotter Area  end 
     ===========================================================-->
-   
-
-
-
+  
+     
     
 
     <!--========================================================
@@ -944,17 +948,43 @@
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <!-- plugin  -->
+    <script src="assets/plugin/Page-Loader-Intro-Loader/dist/jquery.introLoader.min.js"></script>
+    <script src="assets/plugin/Page-Loader-Intro-Loader/dist/helpers/spin.min.js"></script>
     <!-- Custom js  -->
     <script src="assets/js/script.js"></script>
 
     <script>
-      // Scrol header 
-      $(window).on('scroll', function(){
-        if($(this).scrollTop() > 20){
-          $('header').addClass('header_sticky');
-        } else{
-          $('header').removeClass('header_sticky')
+
+    //   // page loader 
+     $("#page-lode").introLoader({
+        animation: {
+          name: 'simpleLoader',
+          options: {
+            exitFx:'fadeOut',
+            ease: "linear",
+            style: 'light',
+            delayBefore: 2000, 
+            delayAfter: 300, 
+            exitTime: 300, 
+            animationTime: 1000,
+          }
         }
+      });
+
+
+// Jquery code 
+      $(document).ready(function () {
+        // Fixed header option 1
+        $(window).on('scroll', function(){
+          if($(this).scrollTop() > 20){
+            $('header').addClass('header_sticky');
+          } else{
+            $('header').removeClass('header_sticky')
+          }
+        });
+
+  
       })
 
     </script>

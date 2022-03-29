@@ -49,7 +49,10 @@ vX-Small devices (portrait phones, less than 576px)
         margin-bottom: 35px;
     }
     .awesome-app {
-        margin-top: 70px;
+        margin-top: -30px;
+    }
+    .as-p{
+        margin-top: 50px;
     }
      /* Trustedner Area end   */
      .awesome-app-box-text{
@@ -69,10 +72,11 @@ vX-Small devices (portrait phones, less than 576px)
         margin: 15px 0 40px 0;
     }
     .awesome-app-box {
-        margin-top: 35px;
+        margin-top: 10px;
     }
     /* Row 4 Smart jackpots */
     .smart-jackpot{
+        margin-top: 75px;
         text-align: center;
     }
     .smart-jackpot-left{
@@ -96,7 +100,7 @@ vX-Small devices (portrait phones, less than 576px)
     }
     /* Why Choose App Area start  */
     .why-choose-app {
-        padding: 110px 0 60px;
+        padding: 95px 0 40px;
     }
     .common-title h1 {
         padding: 0;
@@ -119,7 +123,7 @@ vX-Small devices (portrait phones, less than 576px)
     }
     /* awewsome feature Area start */
     .awesome-futre-area{
-        padding: 70px 0 80px;
+        padding: 60px 0 65px;
     }
     .awesome-button-box {
         margin: 30px 0 0 0;
@@ -141,8 +145,9 @@ vX-Small devices (portrait phones, less than 576px)
         left: 58%;
     }
     /* Quection area  */
+    
     .question {
-        padding-bottom: 30px;
+        padding: 55px 0 40px 0;
     }
     .awesome-card-single-area {
         margin-top: 35px;
