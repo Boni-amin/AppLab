@@ -379,3 +379,23 @@ client Areat  start
 /* ========================================================
  footer Area  end 
 ======================================================== */
+/* Scroll Button Top  */
+.top_bnt-scroll{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    background-color: #2500f9;
+    color: #fff;
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    z-index: 33;
+    border-radius: 50%;
+   
+}
+.top_bnt-scroll:hover{
+    color: #fff;
+}

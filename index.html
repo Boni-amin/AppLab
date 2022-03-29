@@ -934,11 +934,13 @@
         </div>
       </div>
     </footer>
-    
     <!--========================================================
      Fotter Area  end 
     ===========================================================-->
-  
+  <!-- Scroll button  -->
+  <div class="scroll_btn">
+    <a href="javascript:void(0)" id="return_btn" class=""><i class="fa-solid fa-arrow-up"></i></a>
+  </div>
      
     
 
@@ -975,7 +977,25 @@
 
 // Jquery code 
       $(document).ready(function () {
-        // Fixed header option 1
+
+        // Scroll up Button 
+        $(window).on('scroll', function() {
+          
+          if($(this).scrollTop() > 100 ){
+            $('#return_btn').addClass('top_bnt-scroll');
+          } else{
+            $('#return_btn').removeClass('top_bnt-scroll');
+          }
+          $('#return_btn').click(function () {
+            $('html, body').scrollTop({
+              scrollTop: 0
+            })
+        })
+  
+      })
+
+
+        // Fixed header
         $(window).on('scroll', function(){
           if($(this).scrollTop() > 20){
             $('header').addClass('header_sticky');
@@ -984,8 +1004,7 @@
           }
         });
 
-  
-      })
+      });
 
     </script>
   </body>
