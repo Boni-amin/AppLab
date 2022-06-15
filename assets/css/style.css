@@ -1,6 +1,6 @@
 /* font-family: 'Poppins', sans-serif; */
 *{
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -8,6 +8,10 @@ body{
 /* ========================================================
     Reuseable Class 
 ======================================================== */
+section, footer {
+    /* border: 1px solid red; */
+}
+
 .title{
     font-size: 40px;
     font-weight: 600;
@@ -19,7 +23,10 @@ body{
 }
 .p-text{
     color: #616368;
-    line-height: 25px;
+    line-height: 24px;
+}
+.choose-app-space {
+    margin-bottom: 40px !important;
 }
 .font-size-18{
     font-size: 18px;
@@ -190,10 +197,16 @@ header{
 }
 
 .awesome-app {
-    margin-top: 125px;
+    margin-top: 100px;
 }
-.awesome-app-content-p{
-    margin: 30px 0 85px 0;
+.awesome-app-title {
+    font-size: 39px;
+}
+#features {
+    margin-top: 160px;
+}
+.awesome-app-content-p {
+    margin: -5px 0 70px 0;
 }
 /* Row 4 Smart jackpots */
 .smart-jackpot{
@@ -205,11 +218,9 @@ header{
 }
 /* row 5 awesome-app-new */
 .awesome-app-new {
-    margin: 125px 0;
+    margin: 145px 0 0;
 }
-.awesome-app-box-icon{
-    margin-bottom: 20px;
-}
+
 .a-sd{
     padding: 0 35px;
 }
@@ -218,7 +229,7 @@ header{
     height: 50px;
 }
 .a-f-c-p{
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 }
 /* ========================================================
     trusted Area end 
@@ -226,17 +237,20 @@ header{
 /* ========================================================
    Why Choose App Area start 
 ======================================================== */
-.why-choose-app{
-    padding: 115px 0;
+.why-choose-app {
+    padding: 80px 0 90px;
 }
 .common-title h1{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .common-title-h1{
     padding: 0 55px;
 }
 .why-choose-app-single-area {
-    margin-top: 80px;
+    margin-top: 60px;
+}
+.awesome-title {
+    margin: 8px 0 10px 0 !important;
 }
 /* ========================================================
     Why Choose App Area end 
@@ -248,10 +262,10 @@ header{
     padding: 25px 0;
 }
 .ultimate-title{
-    padding: 0 35px 0 0;
+    padding: 0 75px 0 0;
 }
 .ultimte-single-area{
-    margin-top: 60px;
+    margin-top: 45px;
 }
 .ultimate-a-sd{
     padding: 0 5px 0 0 ;
@@ -262,11 +276,11 @@ header{
 /* ========================================================
    awewsome feature Area start 
 ======================================================== */
-.awesome-futre-area{
-    padding: 160px 0 80px;
+.awesome-futre-area {
+    padding: 132px 0 30px;
 }
 .awesome-button-box{
-    margin: 80px 0 0 0;
+    margin: 55px 0 0 0;
 }
 .card-dolor{
     font-size: 55px;
@@ -327,8 +341,8 @@ client Areat  start
 /* ========================================================
     questions Area  start 
 ======================================================== */
-.question{
-    padding: 80px 0;
+.question {
+    padding: 50px 0 70px;
 } 
 .according-border-p{
     background-color: #e7f1ff;
@@ -350,7 +364,7 @@ client Areat  start
  Download app Area  start 
 ======================================================== */
 .download{
-    padding: 10px 0 90px 0;
+    padding: 0 0 80px 0;
 }
 .download-btn-area ul li a {
     padding: 9px 20px;
@@ -367,7 +381,7 @@ client Areat  start
  footer Area  end 
 ======================================================== */
 .footer {
-    padding: 80px 0 60px;
+    padding: 75px 0 20px;
     background: #09142e;
 }
 .footer-icon li a i{
